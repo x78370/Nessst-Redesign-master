@@ -1,1 +1,33 @@
-/* Stylesheet */
+/* Global */
+.container {
+	margin: 0 auto;
+	width: 960px;
+}
+
+
+/*Nav */
+li {
+	float: left;
+	list-style: none;
+	margin: 10px;
+	
+}
+
+nav {
+	float:left;
+	height: 64px;
+	box-shadow: 0 4px 8px #666;
+	width: 960px;
+}
+
+a:link,
+a:visited {
+	text-decoration: none;
+	color: red;
+	padding: 28px 20px 20px 20px;
+}
+
+a:hover,
+a:active {
+	background: yellow;
+}
